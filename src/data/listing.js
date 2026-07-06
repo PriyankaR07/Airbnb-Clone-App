@@ -1,0 +1,133 @@
+// NOTE: Replace these picsum.photos placeholder URLs with the actual
+// photos scraped/saved from the reference site for a true pixel match.
+// Captions and categories are based on what's visible in the assignment PDF screenshots.
+
+export const listing = {
+  title: 'Romantic Jacuzzi 1BHK Candolim | Mirashya UG10',
+  propertyType: 'Entire serviced apartment in Candolim, India',
+  stats: '8 guests · 1 bedroom · 1 bed · 1 bathroom',
+  rating: 4.86,
+  reviewCount: 42,
+  isSuperhost: true,
+  promo: "Get 10% off your next trip",
+  promoSub: 'Promo code',
+  host: {
+    name: 'Mirashya Homes',
+    joined: 'Joined in 2019',
+    isSuperhost: true,
+    responseRate: '100%',
+    responseTime: 'within an hour',
+  },
+  price: 3200,
+  currency: '₹',
+  nights: 1,
+  amenities: [
+    { icon: 'wifi', label: 'Wifi' },
+    { icon: 'car', label: 'Free parking on premises' },
+    { icon: 'pool', label: 'Shared pool' },
+    { icon: 'ac', label: 'Air conditioning' },
+    { icon: 'kitchen', label: 'Kitchen' },
+    { icon: 'washer', label: 'Washing machine' },
+    { icon: 'tv', label: 'TV' },
+    { icon: 'jacuzzi', label: 'Private jacuzzi' },
+  ],
+  description:
+    "This romantic 1BHK serviced apartment sits minutes from Candolim beach, with a private jacuzzi, a fully equipped kitchen, and a shared pool. It's an easy base for exploring North Goa's beaches, markets, and nightlife, while still feeling like a quiet retreat to come home to.",
+  descriptionMore:
+    "The living room opens onto a comfortable seating area with air conditioning and a ceiling fan, and the bedroom is set up for a restful night after a day at the beach. The building itself is a short walk from cafes, restaurants, and the main Candolim strip.",
+  reviews: [
+    {
+      id: 1,
+      name: 'Ananya',
+      date: 'March 2026',
+      text: 'Lovely, clean apartment. The jacuzzi was a great touch after a day at the beach. Host was very responsive.',
+    },
+    {
+      id: 2,
+      name: 'Rohit',
+      date: 'February 2026',
+      text: 'Great location, quiet street, close to everything in Candolim. Would stay again.',
+    },
+    {
+      id: 3,
+      name: 'Priya',
+      date: 'January 2026',
+      text: 'Exactly as pictured. Check-in was smooth and the host gave great local recommendations.',
+    },
+  ],
+}
+
+export const photos = [
+  {
+    id: 1,
+    src: 'https://picsum.photos/seed/mirashya-living1/1600/1200',
+    thumb: 'https://picsum.photos/seed/mirashya-living1/600/450',
+    alt: 'Living room 1',
+    caption: 'Living room 1',
+    details: 'Sofa · Air conditioning · Ceiling fan · TV',
+    category: 'Living room',
+  },
+  {
+    id: 2,
+    src: 'https://picsum.photos/seed/mirashya-living2/1600/1200',
+    thumb: 'https://picsum.photos/seed/mirashya-living2/600/450',
+    alt: 'Living room 2',
+    caption: 'Living room 2',
+    details: 'Dining area · Sofa',
+    category: 'Living room',
+  },
+  {
+    id: 3,
+    src: 'https://picsum.photos/seed/mirashya-kitchen/1600/1200',
+    thumb: 'https://picsum.photos/seed/mirashya-kitchen/600/450',
+    alt: 'Full Kitchen',
+    caption: 'Full Kitchen',
+    details: 'Refrigerator · Stovetop · Microwave · Dishes and silverware',
+    category: 'Kitchen',
+  },
+  {
+    id: 4,
+    src: 'https://picsum.photos/seed/mirashya-bedroom/1600/1200',
+    thumb: 'https://picsum.photos/seed/mirashya-bedroom/600/450',
+    alt: 'Bedroom',
+    caption: 'Bedroom',
+    details: '1 double bed · Air conditioning · Closet',
+    category: 'Bedroom',
+  },
+  {
+    id: 5,
+    src: 'https://picsum.photos/seed/mirashya-bathroom/1600/1200',
+    thumb: 'https://picsum.photos/seed/mirashya-bathroom/600/450',
+    alt: 'Full bathroom',
+    caption: 'Full bathroom',
+    details: 'Shower · Hot water · Hair dryer',
+    category: 'Bathroom',
+  },
+  {
+    id: 6,
+    src: 'https://picsum.photos/seed/mirashya-pool/1600/1200',
+    thumb: 'https://picsum.photos/seed/mirashya-pool/600/450',
+    alt: 'Pool',
+    caption: 'Pool',
+    details: 'Shared outdoor pool',
+    category: 'Outdoor',
+  },
+  {
+    id: 7,
+    src: 'https://picsum.photos/seed/mirashya-exterior/1600/1200',
+    thumb: 'https://picsum.photos/seed/mirashya-exterior/600/450',
+    alt: 'Exterior',
+    caption: 'Exterior',
+    details: 'Building entrance',
+    category: 'Outdoor',
+  },
+  {
+    id: 8,
+    src: 'https://picsum.photos/seed/mirashya-yard/1600/1200',
+    thumb: 'https://picsum.photos/seed/mirashya-yard/600/450',
+    alt: 'Yard',
+    caption: 'Yard',
+    details: 'Garden seating area',
+    category: 'Outdoor',
+  },
+]
